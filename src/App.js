@@ -1,6 +1,6 @@
-import React from "react";
-import stock from "./images/stock1.jpg";
-import "./App.css";
+import React from 'react';
+import './App.css';
+import PicturePuzzle from './picture-puzzle';
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <p>Captcha Assumptions</p>
       </header>
-      <img src={stock} alt="stock" />
+      <PicturePuzzle />
     </div>
   );
 }
